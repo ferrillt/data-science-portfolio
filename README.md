@@ -5,7 +5,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status  
 
-This portfolio currently includes three completed projects. Additional projects from prior coursework and current development efforts will be added as they are reviewed, reorganized, and documented.  
+This portfolio currently includes four completed projects. Additional projects from prior coursework and current development efforts will be added as they are reviewed, reorganized, and documented.  
 
 ## Featured Projects
 
