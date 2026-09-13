@@ -37,6 +37,8 @@ Exploratory analysis of 2019 New York City Airbnb data examining price distribut
 
 [View the New York City Airbnb Listing Analysis project](https://github.com/ferrillt/Airbnb-Analysis)
 
+---
+
 ### Netflix Viewership Analysis
 
 Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
