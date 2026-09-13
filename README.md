@@ -5,7 +5,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status  
 
-This portfolio currently includes four completed projects. Additional projects from prior coursework and current development efforts will be added as they are reviewed, reorganized, and documented.  
+This portfolio currently includes five completed projects. Additional projects from prior coursework and current development efforts will be added as they are reviewed, reorganized, and documented.  
 
 ## Featured Projects
 
@@ -47,6 +47,18 @@ Exploratory analysis of Netflix Top 10 data examining global viewing trends, sus
 
 [View the Netflix Viewership Analysis project](https://github.com/ferrillt/Netflix-Viewership-Analysis)
 
+---
+
+### White House Attendance Analysis
+
+Descriptive analysis of White House visitor records from selected months in 2022 and 2023. The project examines recorded activity by month, day of the week, arrival hour, named visitee, and meeting location while emphasizing responsible interpretation and data limitations.
+
+**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
+
+[View the White House Attendance Analysis project](https://github.com/ferrillt/White-House-Attendance-Analysis)
+
+---
+
 ## About Me
 
 I am an enterprise data architect and technical leader with extensive experience designing data platforms, integrating complex information systems, and guiding technology initiatives from planning through implementation. My interests include data architecture, predictive analytics, machine learning, data engineering, and the responsible application of analytical models.
@@ -54,4 +66,4 @@ I am an enterprise data architect and technical leader with extensive experience
 ## Contact
 
 - [GitHub](https://github.com/ferrillt)
-- [LinkedIn](linkedin.com/in/teresaferrill)
+- [LinkedIn](https://www.linkedin.com/in/teresaferrill)
