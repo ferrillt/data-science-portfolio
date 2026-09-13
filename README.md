@@ -37,6 +37,14 @@ Exploratory analysis of 2019 New York City Airbnb data examining price distribut
 
 [View the New York City Airbnb Listing Analysis project](https://github.com/ferrillt/Airbnb-Analysis)
 
+### Netflix Viewership Analysis
+
+Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
+
+**Technologies:** Python, pandas, Matplotlib, openpyxl, Jupyter Notebook
+
+[View the Netflix Viewership Analysis project](https://github.com/ferrillt/Netflix-Viewership-Analysis)
+
 ## About Me
 
 I am an enterprise data architect and technical leader with extensive experience designing data platforms, integrating complex information systems, and guiding technology initiatives from planning through implementation. My interests include data architecture, predictive analytics, machine learning, data engineering, and the responsible application of analytical models.
