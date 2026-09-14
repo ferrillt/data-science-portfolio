@@ -74,6 +74,8 @@ A time-series forecasting project that combines county-level housing inventory d
 
 **Technologies:** pandas, numpy, matplotlib, seaborn
 
+[View the Hays County Real Estate Analysis project](https://github.com/ferrillt/University-Dropout-Prediction)
+
 ---
 
 ## About Me
