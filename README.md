@@ -68,6 +68,14 @@ Descriptive analysis of White House visitor records from selected months in 2022
 
 ---
 
+### Hays County Real Estate Analysis
+
+A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.
+
+**Technologies:** pandas, numpy, matplotlib, seaborn
+
+---
+
 ## About Me
 
 I am an enterprise data architect and technical leader with extensive experience designing data platforms, integrating complex information systems, and guiding technology initiatives from planning through implementation. My interests include data architecture, predictive analytics, machine learning, data engineering, and the responsible application of analytical models.
