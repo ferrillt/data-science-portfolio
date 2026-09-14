@@ -59,6 +59,15 @@ Descriptive analysis of White House visitor records from selected months in 2022
 
 ---
 
+### TSA Complaint Analysis
+
+
+**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
+
+[View the TSA Complaint Analysis project](https://github.com/ferrillt/TSA-Complaint-Analysis)
+
+---
+
 ## About Me
 
 I am an enterprise data architect and technical leader with extensive experience designing data platforms, integrating complex information systems, and guiding technology initiatives from planning through implementation. My interests include data architecture, predictive analytics, machine learning, data engineering, and the responsible application of analytical models.
