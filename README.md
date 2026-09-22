@@ -3,9 +3,19 @@ This portfolio presents selected data-science and analytics projects involving m
 
 My professional background includes enterprise data architecture, database development, systems engineering, and technical program leadership. These projects demonstrate how I apply Python, statistical analysis, machine learning, and visualization to practical questions in education, public policy, housing, and related domains.  
 
-## Portfolio Status  
+## Portfolio Status
 
-This portfolio currently includes five completed projects. Additional projects from prior coursework and current development efforts will be added as they are reviewed, reorganized, and documented.  
+This portfolio currently includes five completed projects and two projects that are still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
+
+| Project | Status |
+|---|---|
+| University Dropout Prediction | Complete |
+| Childcare Costs Across the United States | Complete |
+| New York City Airbnb Listing Analysis | Complete |
+| Netflix Viewership Analysis | Complete |
+| White House Attendance Analysis | Complete |
+| TSA Complaint Analysis | In Progress |
+| Hays County Real Estate Analysis | In Progress |
 
 ## Featured Projects
 
