@@ -5,7 +5,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status
 
-This portfolio currently includes five completed projects and three projects that are still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
+This portfolio currently includes six completed projects and three projects that are still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
 
 | Project | Status |
 |---|---|
@@ -17,6 +17,7 @@ This portfolio currently includes five completed projects and three projects tha
 | TSA Complaint Analysis | In Progress |
 | Hays County Real Estate Analysis | In Progress |
 | Startup Business Outcome Prediction | In Progress |
+| EV Purchase Predictions | Complete |
 
 ## Featured Projects
 
@@ -98,6 +99,14 @@ A machine-learning classification project examining whether startup characterist
 **Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Startup Business Outcome Prediction project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
+
+---
+
+### [EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction)
+
+Predictive classification of electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The project compares multiple classification models and validates the final histogram gradient boosting model through a Kaggle competition submission.
+
+**Methods & Tools:** Python, pandas, scikit-learn, exploratory data analysis, classification, logistic regression, random forest, histogram gradient boosting, feature preprocessing, model evaluation, ROC AUC
 
 ---
 
