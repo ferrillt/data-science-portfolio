@@ -17,7 +17,7 @@ This portfolio currently includes six completed projects and three projects that
 | TSA Complaint Analysis | In Progress |
 | Hays County Real Estate Analysis | In Progress |
 | Startup Business Outcome Prediction | In Progress |
-| EV Purchase Predictions | Complete |
+| EV Purchase Prediction | Complete |
 
 ## Featured Projects
 
@@ -102,13 +102,13 @@ A machine-learning classification project examining whether startup characterist
 
 ---
 
-### Electric Vehicle (EV) Purchase Prediction
+### EV Purchase Prediction
 
-Predictive classification of electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The project compares multiple classification models and validates the final histogram gradient boosting model through a Kaggle competition submission.
+Machine-learning classification project predicting electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The analysis compares logistic regression, random forest, and histogram gradient boosting models, with the final model achieving a validation ROC AUC of 0.9414 and a Kaggle public leaderboard score of 0.94118.
 
-**Methods & Tools:** Python, pandas, scikit-learn, exploratory data analysis, classification, logistic regression, random forest, histogram gradient boosting, feature preprocessing, model evaluation, ROC AUC
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
 
-[View the EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction)
+[View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
 
 ---
 
