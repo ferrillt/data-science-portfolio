@@ -102,11 +102,13 @@ A machine-learning classification project examining whether startup characterist
 
 ---
 
-### [EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction)
+### Electric Vehicle (EV) Purchase Prediction
 
 Predictive classification of electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The project compares multiple classification models and validates the final histogram gradient boosting model through a Kaggle competition submission.
 
 **Methods & Tools:** Python, pandas, scikit-learn, exploratory data analysis, classification, logistic regression, random forest, histogram gradient boosting, feature preprocessing, model evaluation, ROC AUC
+
+[View the EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction)
 
 ---
 
