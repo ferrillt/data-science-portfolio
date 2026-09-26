@@ -15,9 +15,10 @@ This portfolio currently includes six completed projects and three projects that
 | Netflix Viewership Analysis | Complete |
 | White House Attendance Analysis | Complete |
 | TSA Complaint Analysis | In Progress |
-| Hays County Real Estate Analysis | In Progress |
-| Startup Business Outcome Prediction | In Progress |
+| Hays County Real Estate Analysis | Complete |
+| Startup Business Outcome Prediction | Complete |
 | EV Purchase Prediction | Complete |
+| Distributed Data Pipeline | In Progress |
 
 ## Featured Projects
 
@@ -99,6 +100,16 @@ A machine-learning classification project examining whether startup characterist
 **Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Startup Business Outcome Prediction project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
+
+---
+
+### Distributed Data Pipeline
+
+Demonstrates data ingestion, distributed storage, SQL, Spark machine learning, and results persistence across a cloud-hosted Hadoop environment.
+
+**Technologies:** SQL, Spark machine learning, Hadoop
+
+[View the Distributed Data Pipeline project](https://github.com/ferrillt/Distributed-Data-Pipeline)
 
 ---
 
