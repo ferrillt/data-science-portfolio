@@ -78,7 +78,7 @@ The purpose of this analysis is to identify patterns in TSA complaint activity a
 
 **Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
 
-[View the TSA Complaint Analysis project](https://github.com/ferrillt/TSA-Complaint-Analysis)
+[View the TSA Complaint Analysis project](https://github.com/ferrillt/TSA-Complaints-Analysis)
 
 ---
 
