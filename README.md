@@ -5,7 +5,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status
 
-This portfolio currently includes eight completed projects and two projects that are still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
+This portfolio currently includes nine completed projects and one project that is still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
 
 | Project | Status |
 |---|---|
@@ -14,7 +14,7 @@ This portfolio currently includes eight completed projects and two projects that
 | New York City Airbnb Listing Analysis | Complete |
 | Netflix Viewership Analysis | Complete |
 | White House Attendance Analysis | Complete |
-| TSA Complaint Analysis | In Progress |
+| TSA Complaint Analysis | Complete |
 | Hays County Real Estate Analysis | Complete |
 | Startup Business Outcome Prediction | Complete |
 | Distributed Data Pipeline | In Progress |
