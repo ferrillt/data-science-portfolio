@@ -17,8 +17,8 @@ This portfolio currently includes six completed projects and three projects that
 | TSA Complaint Analysis | In Progress |
 | Hays County Real Estate Analysis | Complete |
 | Startup Business Outcome Prediction | Complete |
-| EV Purchase Prediction | Complete |
 | Distributed Data Pipeline | In Progress |
+| EV Purchase Prediction | Complete |
 
 ## Featured Projects
 
