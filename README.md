@@ -74,6 +74,7 @@ Descriptive analysis of White House visitor records from selected months in 2022
 
 ### TSA Complaint Analysis
 
+The purpose of this analysis is to identify patterns in TSA complaint activity across airports, complaint categories, and geographic regions in order to support targeted operational improvements and resource planning.  The analysis recommends that TSA leadership prioritize operational reviews at airports and complaint categories with consistently high complaint volume in order to improve traveler satisfaction and reduce recurring operational issues.
 
 **Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
 
