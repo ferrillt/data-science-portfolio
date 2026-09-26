@@ -92,11 +92,9 @@ A time-series forecasting project that combines county-level housing inventory d
 
 ---
 
-### Startup Business Outcome Prediction
+### Startup Funding and Status Analysis
 
 A machine-learning classification project examining whether startup characteristics available at a defined point in time can predict future business outcomes. The analysis addresses class imbalance, compares baseline and machine-learning models, and evaluates which company and funding characteristics contribute most to the predictions.
-
-**Status:** Complete
 
 **Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
