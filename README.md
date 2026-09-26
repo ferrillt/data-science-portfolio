@@ -16,7 +16,7 @@ This portfolio currently includes nine completed projects and one project that i
 | White House Attendance Analysis | Complete |
 | TSA Complaint Analysis | Complete |
 | Hays County Real Estate Analysis | Complete |
-| Startup Business Outcome Prediction | Complete |
+| Startup Funding and Status Analysis | Complete |
 | Distributed Data Pipeline | In Progress |
 | EV Purchase Prediction | Complete |
 
@@ -94,11 +94,11 @@ A time-series forecasting project that combines county-level housing inventory d
 
 ### Startup Funding and Status Analysis
 
-A machine-learning classification project examining whether startup characteristics available at a defined point in time can predict future business outcomes. The analysis addresses class imbalance, compares baseline and machine-learning models, and evaluates which company and funding characteristics contribute most to the predictions.
+Explores how startup funding and recorded company status vary across businesses. The analysis examines data quality, funding distributions, and class balance to inform a future predictive model.
 
 **Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
-[View the Startup Business Outcome Prediction project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
+[View the Startup Funding and Status Analysis project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
 
 ---
 
