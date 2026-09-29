@@ -5,7 +5,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status
 
-This portfolio currently includes nine completed projects and one project that is still being developed or finalized. Project statuses will be updated as additional analysis and documentation are completed.
+This portfolio currently includes 10 completed projects. Project documentation has been provided.
 
 | Project | Status |
 |---|---|
@@ -104,7 +104,7 @@ Explores how startup funding and recorded company status vary across businesses.
 
 ### Lottery Numbers Analysis
 
-This Tableau analysis is written for a general audience, especially people who may not have a technical background but are interested in how lottery numbers actually behave.
+A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 results. It examines number frequencies, changes over time, and apparent clusters, while explaining why past patterns do not predict future draws.
 
 **Technologies:** Tableau, SQL
 
