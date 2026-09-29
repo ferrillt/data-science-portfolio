@@ -17,7 +17,7 @@ This portfolio currently includes nine completed projects and one project that i
 | TSA Complaint Analysis | Complete |
 | Hays County Real Estate Analysis | Complete |
 | Startup Funding and Status Analysis | Complete |
-| Distributed Data Pipeline | In Progress |
+| Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction | Complete |
 
 ## Featured Projects
@@ -102,14 +102,13 @@ Explores how startup funding and recorded company status vary across businesses.
 
 ---
 
-### Distributed Data Pipeline
+### Lottery Numbers Analysis
 
-Demonstrates data ingestion, distributed storage, SQL, Spark machine learning, and results persistence across a cloud-hosted Hadoop environment.
+This Tableau analysis is written for a general audience, especially people who may not have a technical background but are interested in how lottery numbers actually behave.
 
-**Technologies:** SQL, Spark machine learning, Hadoop
+**Technologies:** Tableau, SQL
 
-[View the Distributed Data Pipeline project](https://github.com/ferrillt/Distributed-Data-Pipeline)
-
+[View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
 ---
 
 ### EV Purchase Prediction
