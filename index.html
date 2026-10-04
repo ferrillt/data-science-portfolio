@@ -1,1 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Teresa Ferrill's portfolio of data science, predictive analytics, and data visualization projects.">
+  <title>Teresa Ferrill | Data Science Portfolio</title>
 
+  <style>
+    :root {
+      --navy: #17324d;
+      --blue: #245e91;
+      --background: #f4f7fa;
+      --text: #243447;
+      --muted: #526274;
+      --border: #dce4ec;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    a {
+      color: var(--blue);
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #b75c00;
+      outline-offset: 5px;
+    }
+
+    .container {
+      width: min(1100px, 90%);
+      margin: 0 auto;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 16px 0;
+    }
+
+    .brand {
+      font-weight: bold;
+      color: var(--navy);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+    }
+
+    .nav-links a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      padding: 85px 0;
+      color: #ffffff;
+      background: var(--navy);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.4rem, 6vw, 3.8rem);
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin: 0 0 20px;
+      font-size: clamp(1.1rem, 3vw, 1.5rem);
+    }
+
+    .hero-description {
+      max-width: 720px;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 11px 20px;
+      border: 2px solid transparent;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .hero .button {
+      color: var(--navy);
+      background: #ffffff;
+    }
+
+    .hero .button:hover {
+      background: #e7eef5;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      color: var(--navy);
+      font-size: 2rem;
+      line-height: 1.3;
+    }
+
+    h3 {
+      margin: 0 0 14px;
+      color: var(--navy);
+      font-size: 1.3rem;
+      line-height: 1.4;
+    }
+
+    .section-intro {
+      max-width: 780px;
+      margin-bottom: 28px;
+      color: var(--muted);
+    }
+
+    .about-content {
+      max-width: 850px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .skills li {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    .projects-section {
+      background: #ffffff;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      padding: 26px;
+      border: 1px solid var(--border);
+      border-top: 5px solid var(--blue);
+      border-radius: 8px;
+      background: var(--background);
+    }
+
+    .project-type {
+      margin: 0 0 10px;
+      color: var(--blue);
+      font-size: 0.8rem;
+      font-weight: bold;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .project-card p {
+      margin-top: 0;
+    }
+
+    .technology {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .project-link {
+      margin-top: auto;
+      padding-top: 12px;
+      font-weight: bold;
+    }
+
+    .more-projects {
+      margin-top: 32px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding: 0;
+      list-style: none;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 24px 0;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      background: #ffffff;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 850px) {
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 540px) {
+      nav {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .nav-links {
+        gap: 18px;
+      }
+
+      .hero {
+        padding: 60px 0;
+      }
+
+      section {
+        padding: 45px 0;
+      }
+
+      html {
+        scroll-padding-top: 120px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="container" aria-label="Main navigation">
+      <a class="brand" href="#home">Teresa Ferrill</a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="home-heading">
+      <div class="container">
+        <p class="eyebrow">Data Science Portfolio</p>
+        <h1 id="home-heading">Teresa Ferrill</h1>
+        <p class="subtitle">
+          Enterprise Data Architect &amp; Data Science Professional
+        </p>
+        <p class="hero-description">
+          I bring enterprise data architecture and technical leadership
+          experience to practical questions in forecasting, machine learning,
+          and analytics. My work connects data preparation and model evaluation
+          with findings people can use.
+        </p>
+        <a class="button" href="#projects">Explore My Projects</a>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container about-content">
+        <h2 id="about-heading">About Me</h2>
+
+        <p>
+          I am an enterprise data architect and technical leader with
+          approximately 25 years of experience in enterprise IT and Department
+          of Defense environments. My background includes database development,
+          data integration, systems engineering, and technical program
+          leadership. In my role as a Senior Principal Engineer and Enterprise
+          Data Architect, I help guide data platform architecture,
+          modernization, and the integration of information used for
+          analytics and AI initiatives.
+        </p>
+
+        <p>
+          My data science work builds on that experience through predictive
+          modeling, exploratory analysis, and data visualization. The projects
+          in this portfolio examine questions in housing, education, consumer
+          behavior, and public policy. I focus on preparing reliable data,
+          evaluating results against appropriate baselines, explaining
+          limitations, and communicating findings clearly to people who
+          need to make decisions.
+        </p>
+
+        <p>
+          My interests include data architecture, data engineering, predictive
+          analytics, and the responsible application of machine learning.
+          I am completing a Master of Science in Data Science and hold a
+          Master of Science in Management Information Systems and IT
+          Project Management.
+        </p>
+
+        <ul class="skills" aria-label="Selected skills">
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Data Architecture</li>
+          <li>Data Integration</li>
+          <li>Machine Learning</li>
+          <li>Predictive Analytics</li>
+          <li>Data Visualization</li>
+          <li>Technical Leadership</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects"
+             aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Featured Projects</h2>
+        <p class="section-intro">
+          Selected projects demonstrating forecasting, classification,
+          model evaluation, and the communication of practical findings.
+          Each repository includes the analysis and supporting documentation.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Time-Series Forecasting</p>
+            <h3>Hays County Real Estate Analysis</h3>
+            <p>
+              Can housing inventory, mortgage rates, and seasonal patterns
+              help forecast next month's median days on market?
+              This project combines county housing data with mortgage-rate
+              information and compares predictive models with historical
+              baselines.
+            </p>
+            <p>
+              The analysis translates forecast results into guidance for
+              real estate planning while explaining the model's limitations.
+            </p>
+            <p class="technology">
+              <strong>Tools:</strong> Python, pandas, scikit-learn,
+              Matplotlib, Seaborn
+            </p>
+            <a class="project-link"
+               href="https://github.com/ferrillt/Hays-County-Real-Estate-Analysis">
+              View Housing Forecast Project &rarr;
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Machine Learning &amp; Kaggle</p>
+            <h3>EV Purchase Prediction</h3>
+            <p>
+              This classification project predicts electric vehicle purchase
+              interest using demographic, financial, transportation,
+              charging-access, and attitudinal data.
+            </p>
+            <p>
+              The analysis compares logistic regression, random forest,
+              and histogram gradient boosting. The final model achieved
+              a validation ROC AUC of 0.9414 and a Kaggle public
+              leaderboard score of 0.94118.
+            </p>
+            <p class="technology">
+              <strong>Tools:</strong> Python, pandas, NumPy,
+              scikit-learn, Matplotlib
+            </p>
+            <a class="project-link"
+               href="https://github.com/ferrillt/EV-Purchase-Prediction">
+              View EV Prediction Project &rarr;
+            </a>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">Classification &amp; Responsible Analytics</p>
+            <h3>University Dropout Prediction</h3>
+            <p>
+              This project compares classification models for identifying
+              students at risk of withdrawing from a university.
+              It considers how predictive analytics could support
+              earlier student assistance.
+            </p>
+            <p>
+              The analysis emphasizes recall, model interpretability,
+              fairness evaluation, and the responsible use of predictions
+              in institutional decisions.
+            </p>
+            <p class="technology">
+              <strong>Tools:</strong> Python, pandas, scikit-learn,
+              XGBoost, Matplotlib
+            </p>
+            <a class="project-link"
+               href="https://github.com/ferrillt/University-Dropout-Prediction">
+              View Student Retention Project &rarr;
+            </a>
+          </article>
+        </div>
+
+        <p class="more-projects">
+          Additional projects explore childcare costs, Airbnb listings,
+          Netflix viewership, public records, and other analytical questions.
+          <a href="https://github.com/ferrillt/data-science-portfolio">
+            Browse All 10 Projects on GitHub
+          </a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact</h2>
+        <p>
+          Connect with me on LinkedIn or explore my work on GitHub.
+          My professional interests include enterprise data architecture,
+          data engineering, and applied data science.
+        </p>
+
+        <ul class="contact-links">
+          <li>
+            <a href="https://www.linkedin.com/in/teresaferrill">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ferrillt">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Teresa Ferrill &middot; Data Science Portfolio
+    </div>
+  </footer>
+</body>
+</html>
