@@ -22,7 +22,7 @@ This portfolio currently includes 10 completed projects. Project documentation h
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction | Complete |
 
-## Featured Projects
+## Projects
 
 ### University Dropout Prediction
 
@@ -88,7 +88,7 @@ The purpose of this analysis is to identify patterns in TSA complaint activity a
 
 A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.
 
-**Technologies:** pandas, numpy, matplotlib, seaborn
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Hays County Real Estate Analysis project](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis)
 
