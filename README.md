@@ -1,4 +1,6 @@
 ## Teresa Ferrill | Data Science Portfolio
+[View my portfolio website](https://ferrillt.github.io/data-science-portfolio/)
+
 This portfolio presents selected data-science and analytics projects involving machine learning, exploratory data analysis, predictive modeling, data visualization, and responsible use of data.  
 
 My professional background includes enterprise data architecture, database development, systems engineering, and technical program leadership. These projects demonstrate how I apply Python, statistical analysis, machine learning, and visualization to practical questions in education, public policy, housing, and related domains.  
