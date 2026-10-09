@@ -111,6 +111,7 @@ A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 
 **Technologies:** Tableau, SQL
 
 [View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
+
 ---
 
 ### EV Purchase Prediction
