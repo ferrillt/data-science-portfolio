@@ -18,7 +18,7 @@ This portfolio currently includes 10 completed projects. Project documentation h
 | White House Attendance Analysis | Complete |
 | TSA Complaint Analysis | Complete |
 | Hays County Real Estate Analysis | Complete |
-| Startup Funding and Status Analysis | Complete |
+| Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction | Complete |
 
