@@ -92,6 +92,8 @@ A time-series forecasting project that combines county-level housing inventory d
 
 [View the Hays County Real Estate Analysis project](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis)
 
+**Course:** DSC 680 — Applied Data Science
+
 ---
 
 ### Startup Funding and Status Analysis
@@ -121,6 +123,8 @@ Machine-learning classification project predicting electric vehicle purchase int
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
 
 [View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
+
+**Course:** DSC 680 — Applied Data Science
 
 ---
 
