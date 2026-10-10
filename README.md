@@ -129,13 +129,13 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ---
 
-### NYC Taxi Data Pipeline
+### Customer Segmentation Clustering
 
 This project inspects 3.48 million January 2025 NYC yellow-taxi records, generates data quality reports, and prepares records with quality flags and location descriptions. It summarizes activity by date, hour, and borough, with DuckDB SQL results matching pandas summaries. Raw files are preserved, and processed datasets are exported as Parquet. Automated ingestion and dashboard development are planned.
 
 **Technologies:** Python, pandas, PyArrow, DuckDB, Matplotlib, Jupyter Notebook
 
-[View the NYC Taxi Data Pipeline project](https://github.com/ferrillt/NYC-Taxi-Data-Pipeline)
+[View the Customer Segmentation Clustering](https://github.com/ferrillt/Customer-Segmentation-Clustering)
 
 **Course:** DSC 680 — Applied Data Science
 
