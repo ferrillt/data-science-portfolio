@@ -21,7 +21,7 @@ My professional background includes enterprise data architecture, database devel
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction * | Complete |
-| Customer Segmentation Clustering * | In-Progress RFM Project |
+| Customer Segmentation Clustering * | Complete |
 
 (* **Course:** DSC 680 — Applied Data Science)
 
@@ -133,7 +133,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ### Customer Segmentation Using Clustering
 
-Examines customer purchasing behavior using the UCI Online Retail dataset to identify groups with similar purchasing characteristics. The analysis applies Recency, Frequency, and Monetary (RFM) feature engineering, exploratory analysis, logarithmic transformations, and feature scaling to prepare 4,338 customer records for K-Means clustering. The remaining work focuses on identifying meaningful customer segments, evaluating clustering quality, and developing business recommendations.
+Examines customer purchasing behavior using the UCI Online Retail dataset to identify groups with similar purchasing characteristics. The analysis applies Recency, Frequency, and Monetary (RFM) feature engineering, exploratory analysis, logarithmic transformations, and feature scaling to prepare 4,338 customer records for K-Means clustering. The final results
 
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
