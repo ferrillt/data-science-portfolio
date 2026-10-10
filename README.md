@@ -133,7 +133,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 Examines customer purchasing behavior using transaction data from the UCI Online Retail dataset. The objective is to identify customer groups with similar purchasing characteristics using Recency, Frequency, and Monetary (RFM) analysis and K-Means clustering.  The analysis includes data preparation, exploratory analysis, customer-level feature engineering, clustering, model evaluation, and interpretation of the resulting customer segments.
 
-**Technologies:** Python, pandas, PyArrow, DuckDB, Matplotlib, Jupyter Notebook
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Customer Segmentation Clustering](https://github.com/ferrillt/Customer-Segmentation-Clustering)
 
