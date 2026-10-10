@@ -7,7 +7,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status
 
-This portfolio currently includes 10 completed projects. Project documentation has been provided.
+10 projects covering completed analyses and ongoing development.  Project documentation has been provided.
 
 | Project | Status |
 |---|---|
@@ -21,6 +21,7 @@ This portfolio currently includes 10 completed projects. Project documentation h
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction | Complete |
+| NYC Taxi Data Pipeline | In-Progress Data Engineering Project |
 
 ## Projects
 
@@ -123,6 +124,18 @@ Machine-learning classification project predicting electric vehicle purchase int
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
 
 [View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
+
+**Course:** DSC 680 — Applied Data Science
+
+---
+
+### NYC Taxi Data Pipeline
+
+This notebook inspects January 2025 NYC yellow-taxi trip records and the taxi-zone lookup table. It examines data types, missing values, and potential data quality issues to guide the development of a repeatable analytics pipeline.  
+
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+[View the NYC Taxi Data Pipeline project](https://github.com/ferrillt/NYC-Taxi-Data-Pipeline)
 
 **Course:** DSC 680 — Applied Data Science
 
