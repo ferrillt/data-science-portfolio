@@ -23,7 +23,7 @@ My professional background includes enterprise data architecture, database devel
 | *EV Purchase Prediction | Complete |
 | *Customer Segmentation Clustering | In-Progress RFM Project |
 
-(* - **Course:** DSC 680 — Applied Data Science)
+(* **Course:** DSC 680 — Applied Data Science)
 
 ## Projects
 
