@@ -20,7 +20,7 @@ My professional background includes enterprise data architecture, database devel
 | Hays County Real Estate Analysis * | Complete |
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
-| EV Purchase Prediction | Complete * |
+| EV Purchase Prediction * | Complete |
 | Customer Segmentation Clustering * | In-Progress RFM Project |
 
 (* **Course:** DSC 680 — Applied Data Science)
