@@ -87,7 +87,7 @@ The purpose of this analysis is to identify patterns in TSA complaint activity a
 
 ### Hays County Real Estate Analysis
 
-A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.
+A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.  The Ridge test MAE of 4.64 days, approximately 35.7% lower than the previous-month baseline.
 
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
