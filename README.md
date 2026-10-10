@@ -152,5 +152,5 @@ I am an enterprise data architect and technical leader with extensive experience
 ## Contact
 
 - [GitHub](https://github.com/ferrillt)
-- [GitHub - WebPage](https://ferrillt.github.io/data-science-portfolio/)
+- [Portfolio Website](https://ferrillt.github.io/data-science-portfolio/)
 - [LinkedIn](https://www.linkedin.com/in/teresaferrill)
