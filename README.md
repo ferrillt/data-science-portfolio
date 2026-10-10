@@ -131,7 +131,17 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ### Customer Segmentation Clustering
 
-Examines customer purchasing behavior using transaction data from the UCI Online Retail dataset. The objective is to identify customer groups with similar purchasing characteristics using Recency, Frequency, and Monetary (RFM) analysis and K-Means clustering.  The analysis includes data preparation, exploratory analysis, customer-level feature engineering, clustering, model evaluation, and interpretation of the resulting customer segments.
+### Customer Segmentation Using Clustering
+
+Examines customer purchasing behavior using the UCI Online Retail dataset to identify groups with similar purchasing characteristics. The analysis applies Recency, Frequency, and Monetary (RFM) feature engineering, exploratory analysis, logarithmic transformations, and feature scaling to prepare 4,338 customer records for K-Means clustering. The remaining work focuses on identifying meaningful customer segments, evaluating clustering quality, and developing business recommendations.
+
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+[View the Customer Segmentation Using Clustering project](https://github.com/ferrillt/Customer-Segmentation-Clustering)
+
+**Status:** In progress — RFM feature engineering and preprocessing complete
+
+**Course:** DSC 680 — Applied Data Science
 
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
