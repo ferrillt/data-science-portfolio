@@ -131,7 +131,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ### NYC Taxi Data Pipeline
 
-This notebook inspects January 2025 NYC yellow-taxi trip records and the taxi-zone lookup table. It examines data types, missing values, and potential data quality issues to guide the development of a repeatable analytics pipeline.  
+This notebook inspects January 2025 NYC yellow-taxi trip records and the taxi-zone lookup table. It examines data types, missing values, and potential data quality issues to guide the development of a repeatable analytics pipeline.  Inspects 3.48 million January 2025 NYC yellow-taxi records and generates a consolidated data quality report covering missing values, trip durations, distances, fares, duplicates, and location references. Automated processing, SQL integration, and dashboard development are planned.
 
 Technologies: Python, pandas, PyArrow, Jupyter Notebook
 
