@@ -7,7 +7,7 @@ My professional background includes enterprise data architecture, database devel
 
 ## Portfolio Status
 
-10 projects covering completed analyses and ongoing development.  Project documentation has been provided.
+11 projects covering completed analyses and ongoing development.  Project documentation has been provided.
 
 | Project | Status |
 |---|---|
