@@ -133,7 +133,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 This project inspects 3.48 million January 2025 NYC yellow-taxi records and generates data quality reports. Processing separates records by reporting period, adds quality flags, integrates pickup and drop-off location descriptions, and exports Parquet datasets while preserving raw files. SQL integration, automated ingestion, and dashboard development are planned.  
 
-**Technologies:** Python, pandas, PyArrow, Jupyter Notebook
+**Technologies:** Python, pandas, PyArrow, duckdb, Jupyter Notebook
 
 [View the NYC Taxi Data Pipeline project](https://github.com/ferrillt/NYC-Taxi-Data-Pipeline)
 
