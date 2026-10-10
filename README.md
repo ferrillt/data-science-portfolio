@@ -21,7 +21,7 @@ My professional background includes enterprise data architecture, database devel
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction | Complete |
-| NYC Taxi Data Pipeline | In-Progress Data Engineering Project |
+| Customer Segmentation Clustering | In-Progress RFM Project |
 
 ## Projects
 
