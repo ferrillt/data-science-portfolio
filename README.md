@@ -131,7 +131,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ### Customer Segmentation Clustering
 
-This project inspects 3.48 million January 2025 NYC yellow-taxi records, generates data quality reports, and prepares records with quality flags and location descriptions. It summarizes activity by date, hour, and borough, with DuckDB SQL results matching pandas summaries. Raw files are preserved, and processed datasets are exported as Parquet. Automated ingestion and dashboard development are planned.
+Examines customer purchasing behavior using transaction data from the UCI Online Retail dataset. The objective is to identify customer groups with similar purchasing characteristics using Recency, Frequency, and Monetary (RFM) analysis and K-Means clustering.  The analysis includes data preparation, exploratory analysis, customer-level feature engineering, clustering, model evaluation, and interpretation of the resulting customer segments.
 
 **Technologies:** Python, pandas, PyArrow, DuckDB, Matplotlib, Jupyter Notebook
 
