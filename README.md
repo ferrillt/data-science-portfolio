@@ -17,11 +17,11 @@ My professional background includes enterprise data architecture, database devel
 | Netflix Viewership Analysis | Complete |
 | White House Attendance Analysis | Complete |
 | TSA Complaint Analysis | Complete |
-| Hays County Real Estate Analysis* | Complete |
+| *Hays County Real Estate Analysis | Complete |
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
-| EV Purchase Prediction* | Complete |
-| Customer Segmentation Clustering* | In-Progress RFM Project |
+| *EV Purchase Prediction | Complete |
+| *Customer Segmentation Clustering | In-Progress RFM Project |
 
 (* - **Course:** DSC 680 — Applied Data Science)
 
