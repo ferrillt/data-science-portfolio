@@ -141,8 +141,6 @@ Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Customer Segmentation Using Clustering project](https://github.com/ferrillt/Customer-Segmentation-Clustering)
 
-**Status:** Complete
-
 **Course:** DSC 680 — Applied Data Science
 
 ---
