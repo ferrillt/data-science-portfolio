@@ -283,6 +283,41 @@
         scroll-behavior: auto;
       }
     }
+    .hero-layout {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-image {
+  flex: 0 1 380px;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 850px) {
+  .hero-layout {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+  }
+
+  .hero-image {
+    flex: none;
+    width: 100%;
+    max-width: 380px;
+    align-self: center;
+  }
+}
   </style>
 </head>
 
@@ -301,21 +336,36 @@
 
   <main>
     <section class="hero" id="home" aria-labelledby="home-heading">
-      <div class="container">
-        <p class="eyebrow">Data Science Portfolio</p>
-        <h1 id="home-heading">Teresa Ferrill</h1>
-        <p class="subtitle">
-          Enterprise Data Architect &amp; Data Science Professional
-        </p>
-        <p class="hero-description">
-          I bring enterprise data architecture and technical leadership
-          experience to practical questions in forecasting, machine learning,
-          and analytics. My work connects data preparation and model evaluation
-          with findings people can use.
-        </p>
-        <a class="button" href="#projects">Explore My Projects</a>
-      </div>
-    </section>
+  <div class="container hero-layout">
+    <div class="hero-text">
+      <p class="eyebrow">Data Science Portfolio</p>
+
+      <h1 id="home-heading">Teresa Ferrill</h1>
+
+      <p class="subtitle">
+        Enterprise Data Architect &amp; Data Science Professional
+      </p>
+
+      <p class="hero-description">
+        I bring enterprise data architecture and technical leadership
+        experience to practical questions in forecasting, machine learning,
+        and analytics. My work connects data preparation and model evaluation
+        with findings people can use.
+      </p>
+
+      <a class="button" href="#projects">Explore My Projects</a>
+    </div>
+
+    <div class="hero-image">
+      <img
+        src="images/CoverPicture_2.png"
+        alt=""
+        width="2048"
+        height="1117"
+      >
+    </div>
+  </div>
+</section>
 
     <section id="about" aria-labelledby="about-heading">
       <div class="container about-content">
