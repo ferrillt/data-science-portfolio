@@ -29,7 +29,7 @@ My professional background includes enterprise data architecture, database devel
 
 ### University Dropout Prediction
 
-Machine-learning classification project that compares Logistic Regression, Random Forest, and XGBoost for identifying students at risk of withdrawing. The project emphasizes recall, interpretability, fairness evaluation, and responsible institutional use.
+Machine-learning classification project that compares Logistic Regression, Random Forest, and XGBoost for identifying students at risk of withdrawing from an online university course. The project emphasizes recall, interpretability, fairness evaluation, and responsible institutional use.
 
 **Technologies:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter Notebook
 
