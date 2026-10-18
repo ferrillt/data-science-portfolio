@@ -21,7 +21,7 @@ My professional background includes enterprise data architecture, database devel
 | Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
 | Lottery Numbers Analysis | Complete |
 | EV Purchase Prediction * | Complete |
-| Customer Segmentation Clustering * | Complete |
+| Customer Segmentation Using Clustering * | Complete |
 
 (* **Course:** DSC 680 — Applied Data Science)
 
