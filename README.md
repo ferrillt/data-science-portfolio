@@ -23,7 +23,7 @@ My professional background includes enterprise data architecture, database devel
 | [University Dropout Prediction](https://github.com/ferrillt/University-Dropout-Prediction) | Complete |
 | [White House Attendance Analysis](https://github.com/ferrillt/White-House-Attendance-Analysis) | Complete |
 
-* **Course:** DSC 680 — Applied Data Science
+(* **Course:** DSC 680 — Applied Data Science)
 
 ## Projects
 
