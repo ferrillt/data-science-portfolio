@@ -11,31 +11,21 @@ My professional background includes enterprise data architecture, database devel
 
 | Project | Status |
 |---|---|
-| University Dropout Prediction | Complete |
-| Childcare Costs Across the United States | Complete |
-| New York City Airbnb Listing Analysis | Complete |
-| Netflix Viewership Analysis | Complete |
-| White House Attendance Analysis | Complete |
-| TSA Complaint Analysis | Complete |
-| Hays County Real Estate Analysis * | Complete |
-| Startup Funding and Status Analysis | Exploratory Analysis Complete; Modeling Planned |
-| Lottery Numbers Analysis | Complete |
-| EV Purchase Prediction * | Complete |
-| Customer Segmentation Using Clustering * | Complete |
+| [Childcare Costs Across the United States](https://github.com/ferrillt/Childcare-Costs-Across-US) | Complete |
+| [Customer Segmentation Using Clustering](https://github.com/ferrillt/Customer-Segmentation-Clustering) * | Complete |
+| [EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction) * | Complete |
+| [Hays County Real Estate Analysis](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis) * | Complete |
+| [Lottery Numbers Analysis](https://github.com/ferrillt/Lottery-Numbers-Analysis) | Complete |
+| [Netflix Viewership Analysis](https://github.com/ferrillt/Netflix-Viewership-Analysis) | Complete |
+| [New York City Airbnb Listing Analysis](https://github.com/ferrillt/Airbnb-Analysis) | Complete |
+| [Startup Funding and Status Analysis](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses) | Exploratory Analysis Complete; Modeling Planned |
+| [TSA Complaint Analysis](https://github.com/ferrillt/TSA-Complaints-Analysis) | Complete |
+| [University Dropout Prediction](https://github.com/ferrillt/University-Dropout-Prediction) | Complete |
+| [White House Attendance Analysis](https://github.com/ferrillt/White-House-Attendance-Analysis) | Complete |
 
-(* **Course:** DSC 680 — Applied Data Science)
+* **Course:** DSC 680 — Applied Data Science
 
 ## Projects
-
-### University Dropout Prediction
-
-Machine-learning classification project that compares Logistic Regression, Random Forest, and XGBoost for identifying students at risk of withdrawing from an online university course. The project emphasizes recall, interpretability, fairness evaluation, and responsible institutional use.
-
-**Technologies:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter Notebook
-
-[View the University Dropout Prediction project](https://github.com/ferrillt/University-Dropout-Prediction)
-
----
 
 ### Childcare Costs Across the United States
 
@@ -47,75 +37,16 @@ Exploratory analysis of the National Database of Childcare Prices examining week
 
 ---
 
-### New York City Airbnb Listing Analysis
+### Customer Segmentation Using Clustering
 
-Exploratory analysis of 2019 New York City Airbnb data examining price distributions, room types, review activity, and neighborhood differences.
+This project applies Recency, Frequency, and Monetary (RFM) analysis and K-Means clustering to identify customer purchasing patterns in the UCI Online Retail dataset.  After preparing 392,692 transaction records representing 4,338 customers, four customer segments were identified. High-value active customers represented 16.55% of customers but accounted for 64.73% of retained positive purchasing value. The findings support potential customer retention, engagement, and re-engagement strategies.  
 
-**Technologies:** Python, pandas, Matplotlib, Seaborn, Jupyter Notebook
+**Technologies:** Python, pandas, NumPy, scikit-learn,
+Matplotlib, Seaborn, Jupyter Notebook
 
-[View the New York City Airbnb Listing Analysis project](https://github.com/ferrillt/Airbnb-Analysis)
-
----
-
-### Netflix Viewership Analysis
-
-Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
-
-**Technologies:** Python, pandas, Matplotlib, openpyxl, Jupyter Notebook
-
-[View the Netflix Viewership Analysis project](https://github.com/ferrillt/Netflix-Viewership-Analysis)
-
----
-
-### White House Attendance Analysis
-
-Descriptive analysis of White House visitor records from selected months in 2022 and 2023. The project examines recorded activity by month, day of the week, arrival hour, named visitee, and meeting location while emphasizing responsible interpretation and data limitations.
-
-**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
-
-[View the White House Attendance Analysis project](https://github.com/ferrillt/White-House-Attendance-Analysis)
-
----
-
-### TSA Complaint Analysis
-
-The purpose of this analysis is to identify patterns in TSA complaint activity across airports, complaint categories, and geographic regions in order to support targeted operational improvements and resource planning.  The analysis recommends that TSA leadership prioritize operational reviews at airports and complaint categories with consistently high complaint volume in order to improve traveler satisfaction and reduce recurring operational issues.
-
-**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
-
-[View the TSA Complaint Analysis project](https://github.com/ferrillt/TSA-Complaints-Analysis)
-
----
-
-### Hays County Real Estate Analysis
-
-A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.  Ridge regression achieved a test MAE of 4.64 days, approximately 35.7% lower than the previous-month baseline.
-
-**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
-
-[View the Hays County Real Estate Analysis project](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis)
+[View the Customer Segmentation Using Clustering project](https://github.com/ferrillt/Customer-Segmentation-Clustering)
 
 **Course:** DSC 680 — Applied Data Science
-
----
-
-### Startup Funding and Status Analysis
-
-Explores how startup funding and recorded company status vary across businesses. The analysis examines data quality, funding distributions, and class balance to inform a future predictive model.
-
-**Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
-
-[View the Startup Funding and Status Analysis project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
-
----
-
-### Lottery Numbers Analysis
-
-A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 results. It examines number frequencies, changes over time, and apparent clusters, while explaining why past patterns do not predict future draws.
-
-**Technologies:** Tableau, SQL
-
-[View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
 
 ---
 
@@ -131,17 +62,85 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ---
 
+### Hays County Real Estate Analysis
 
-### Customer Segmentation Using Clustering
+A time-series forecasting project that combines county-level housing inventory data with mortgage-rate information to predict Hays County’s median days on market one month in advance. The analysis compares regression and machine-learning models with simple historical baselines and translates the results into practical guidance for real estate professionals.  Ridge regression achieved a test MAE of 4.64 days, approximately 35.7% lower than the previous-month baseline.
 
-This project applies Recency, Frequency, and Monetary (RFM) analysis and K-Means clustering to identify customer purchasing patterns in the UCI Online Retail dataset.  After preparing 392,692 transaction records representing 4,338 customers, four customer segments were identified. High-value active customers represented 16.55% of customers but accounted for 64.73% of retained positive purchasing value. The findings support potential customer retention, engagement, and re-engagement strategies.  
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
-**Technologies:** Python, pandas, NumPy, scikit-learn,
-Matplotlib, Seaborn, Jupyter Notebook
-
-[View the Customer Segmentation Using Clustering project](https://github.com/ferrillt/Customer-Segmentation-Clustering)
+[View the Hays County Real Estate Analysis project](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis)
 
 **Course:** DSC 680 — Applied Data Science
+
+---
+
+### Lottery Numbers Analysis
+
+A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 results. It examines number frequencies, changes over time, and apparent clusters, while explaining why past patterns do not predict future draws.
+
+**Technologies:** Tableau, SQL
+
+[View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
+
+---
+
+### Netflix Viewership Analysis
+
+Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
+
+**Technologies:** Python, pandas, Matplotlib, openpyxl, Jupyter Notebook
+
+[View the Netflix Viewership Analysis project](https://github.com/ferrillt/Netflix-Viewership-Analysis)
+
+---
+
+### New York City Airbnb Listing Analysis
+
+Exploratory analysis of 2019 New York City Airbnb data examining price distributions, room types, review activity, and neighborhood differences.
+
+**Technologies:** Python, pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+[View the New York City Airbnb Listing Analysis project](https://github.com/ferrillt/Airbnb-Analysis)
+
+---
+
+### Startup Funding and Status Analysis
+
+Explores how startup funding and recorded company status vary across businesses. The analysis examines data quality, funding distributions, and class balance to inform a future predictive model.
+
+**Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
+
+[View the Startup Funding and Status Analysis project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
+
+---
+
+### TSA Complaint Analysis
+
+The purpose of this analysis is to identify patterns in TSA complaint activity across airports, complaint categories, and geographic regions in order to support targeted operational improvements and resource planning.  The analysis recommends that TSA leadership prioritize operational reviews at airports and complaint categories with consistently high complaint volume in order to improve traveler satisfaction and reduce recurring operational issues.
+
+**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
+
+[View the TSA Complaint Analysis project](https://github.com/ferrillt/TSA-Complaints-Analysis)
+
+---
+
+### University Dropout Prediction
+
+Machine-learning classification project that compares Logistic Regression, Random Forest, and XGBoost for identifying students at risk of withdrawing from an online university course. The project emphasizes recall, interpretability, fairness evaluation, and responsible institutional use.
+
+**Technologies:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter Notebook
+
+[View the University Dropout Prediction project](https://github.com/ferrillt/University-Dropout-Prediction)
+
+---
+
+### White House Attendance Analysis
+
+Descriptive analysis of White House visitor records from selected months in 2022 and 2023. The project examines recorded activity by month, day of the week, arrival hour, named visitee, and meeting location while emphasizing responsible interpretation and data limitations.
+
+**Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
+
+[View the White House Attendance Analysis project](https://github.com/ferrillt/White-House-Attendance-Analysis)
 
 ---
 
