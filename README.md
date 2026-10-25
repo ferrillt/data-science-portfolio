@@ -67,7 +67,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 ### Enterprise AI Governance & Evaluation
 
-An enterprise AI analytics project examining how data governance, business metadata, authorization policies, and independent evaluation can support reliable AI-generated analytical responses. The project uses a deterministic synthetic SQLite dataset, documented business metric definitions, and a 50-case benchmark to evaluate analytical accuracy, authorization compliance, and appropriate handling of ambiguous requests.
+An enterprise AI analytics project examining how data governance, business metadata, authorization policies, and independent evaluation can support reliable AI-generated analytical responses. The project uses a deterministic synthetic SQLite dataset, documented business metric definitions, and a 50-case benchmark designed to evaluate analytical accuracy, authorization compliance, and appropriate handling of ambiguous requests.
 
 Milestone 2 technical validation is complete, with 28 automated tests passing. The next phases will implement AI integration, runtime governance controls, and comparative evaluation.
 
