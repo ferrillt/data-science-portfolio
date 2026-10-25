@@ -53,6 +53,18 @@ Matplotlib, Seaborn, Jupyter Notebook
 
 ---
 
+### EV Purchase Prediction
+
+Machine-learning classification project predicting electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The analysis compares logistic regression, random forest, and histogram gradient boosting models, with the final model achieving a validation ROC AUC of 0.9414 and a Kaggle public leaderboard score of 0.94118.
+
+**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
+
+[View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
+
+**Course:** DSC 680 — Applied Data Science
+
+---
+
 ### Enterprise AI Governance & Evaluation
 
 An enterprise AI analytics project examining how data governance, business metadata, authorization policies, and independent evaluation can support reliable AI-generated analytical responses. The project uses a deterministic synthetic SQLite dataset, documented business metric definitions, and a 50-case benchmark to evaluate analytical accuracy, authorization compliance, and appropriate handling of ambiguous requests.
@@ -64,18 +76,6 @@ Milestone 2 technical validation is complete, with 28 automated tests passing. T
 **Status:** In Progress — Milestone 2 Technical Validation Complete
 
 [View the Enterprise AI Governance & Evaluation project](https://github.com/ferrillt/Enterprise-AI-Governance-Evaluation)
-
----
-
-### EV Purchase Prediction
-
-Machine-learning classification project predicting electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The analysis compares logistic regression, random forest, and histogram gradient boosting models, with the final model achieving a validation ROC AUC of 0.9414 and a Kaggle public leaderboard score of 0.94118.
-
-**Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
-
-[View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
-
-**Course:** DSC 680 — Applied Data Science
 
 ---
 
