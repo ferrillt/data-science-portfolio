@@ -14,6 +14,7 @@ This portfolio includes 10 completed projects and one completed exploratory anal
 | [Childcare Costs Across the United States](https://github.com/ferrillt/Childcare-Costs-Across-US) | Complete |
 | [Customer Segmentation Using Clustering](https://github.com/ferrillt/Customer-Segmentation-Clustering) * | Complete |
 | [EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction) * | Complete |
+| [Enterprise AI Governance & Evaluation](https://github.com/ferrillt/Enterprise-AI-Governance-Evaluation) | In Progress — Milestone 2 Technical Validation Complete |
 | [Hays County Real Estate Analysis](https://github.com/ferrillt/Hays-County-Real-Estate-Analysis) * | Complete |
 | [Lottery Numbers Analysis](https://github.com/ferrillt/Lottery-Numbers-Analysis) | Complete |
 | [Netflix Viewership Analysis](https://github.com/ferrillt/Netflix-Viewership-Analysis) | Complete |
