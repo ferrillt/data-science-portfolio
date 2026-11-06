@@ -43,7 +43,7 @@ Exploratory analysis of the National Database of Childcare Prices examining week
 
 ### Market Basket Analysis for Online Retail
 
-This project used FP-growth to identify products frequently purchased together and develop recommendations for an online retailer.  Tested the recommendations on later orders by hiding one product per basket..
+This project uses FP-growth to identify products frequently purchased together and develop recommendations for an online retailer.  Recommendations on later orders were tested by hiding one product per basket..
 
 **Technologies:** Python, pandas, NumPy, mixtend, Matplotlib, Jupyter Notebook
 
