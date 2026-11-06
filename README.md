@@ -35,6 +35,8 @@ Each repository includes supporting documentation.
 
 Exploratory analysis of the National Database of Childcare Prices examining weekly childcare prices across states, regions, age groups, and care settings. The repository includes a notebook, dashboard, presentations, and written report.
 
+Infant care was consistently the most expensive age category, and family childcare prices were highest in the Northeast.
+
 **Technologies:** Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Childcare Costs Across the United States project](https://github.com/ferrillt/Childcare-Costs-Across-US)
@@ -70,6 +72,8 @@ Matplotlib, Seaborn, Jupyter Notebook
 
 Machine-learning classification project predicting electric vehicle purchase interest using demographic, financial, transportation, charging-access, and attitudinal data. The analysis compares logistic regression, random forest, and histogram gradient boosting models, with the final model achieving a validation ROC AUC of 0.9414 and a Kaggle public leaderboard score of 0.94118.
 
+The histogram gradient boosting model achieved a validation ROC AUC of 0.9414. Purchase interest was higher among respondents who reported greater environmental concern.
+
 **Technologies:** Python, pandas, NumPy, scikit-learn, Matplotlib, Jupyter Notebook
 
 [View the EV Purchase Prediction project](https://github.com/ferrillt/EV-Purchase-Prediction)
@@ -82,7 +86,7 @@ Machine-learning classification project predicting electric vehicle purchase int
 
 An enterprise AI analytics project examining how data governance, business metadata, authorization policies, and independent evaluation can support reliable AI-generated analytical responses. The project uses a deterministic synthetic SQLite dataset, documented business metric definitions, and a 50-case benchmark designed to evaluate analytical accuracy, authorization compliance, and appropriate handling of ambiguous requests.
 
-Milestone 2 technical validation is complete, with 28 automated tests passing. The next phases will implement AI integration, runtime governance controls, and comparative evaluation.
+Completed Milestone 2 technical validation with 28 automated tests passing. AI integration and runtime governance evaluation are planned.
 
 **Technologies:** Python, SQLite, SQL, data governance, AI evaluation, automated testing
 
@@ -108,6 +112,8 @@ A time-series forecasting project that combines county-level housing inventory d
 
 A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 results. It examines number frequencies, changes over time, and apparent clusters, while explaining why past patterns do not predict future draws.
 
+Historical draw counts varied by number. Those differences provide no predictive advantage for a future independent draw.
+
 **Technologies:** Tableau, SQL
 
 [View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
@@ -117,6 +123,8 @@ A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 
 ### Netflix Viewership Analysis
 
 Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
+
+In the Most Popular dataset, Squid Game had the highest first-91-day view count, followed by Wednesday and Red Notice.
 
 **Technologies:** Python, pandas, Matplotlib, openpyxl, Jupyter Notebook
 
@@ -128,6 +136,8 @@ Exploratory analysis of Netflix Top 10 data examining global viewing trends, sus
 
 Exploratory analysis of 2019 New York City Airbnb data examining price distributions, room types, review activity, and neighborhood differences.
 
+Entire homes and apartments had higher median listing prices and a wider price range than private or shared rooms.
+
 **Technologies:** Python, pandas, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the New York City Airbnb Listing Analysis project](https://github.com/ferrillt/Airbnb-Analysis)
@@ -138,6 +148,8 @@ Exploratory analysis of 2019 New York City Airbnb data examining price distribut
 
 Explores how startup funding and recorded company status vary across businesses. The analysis examines data quality, funding distributions, and class balance to inform a future predictive model.
 
+A small share of startups accounted for much of the funding, and nearly 80% of records were labeled Operating. Predictive modeling is planned.
+
 **Technologies:** Python, pandas, scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Startup Funding and Status Analysis project](https://github.com/ferrillt/Predict-Success-of-Startup-Businesses)
@@ -147,6 +159,8 @@ Explores how startup funding and recorded company status vary across businesses.
 ### TSA Complaint Analysis
 
 The purpose of this analysis is to identify patterns in TSA complaint activity across airports, complaint categories, and geographic regions in order to support targeted operational improvements and resource planning.  The analysis recommends that TSA leadership prioritize operational reviews at airports and complaint categories with consistently high complaint volume in order to improve traveler satisfaction and reduce recurring operational issues.
+
+Recorded complaints were concentrated in certain airports and categories. The counts help prioritize follow-up, while comparisons across airports would require passenger volumes.
 
 **Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
 
@@ -167,6 +181,8 @@ Machine-learning classification project that compares Logistic Regression, Rando
 ### White House Attendance Analysis
 
 Descriptive analysis of White House visitor records from selected months in 2022 and 2023. The project examines recorded activity by month, day of the week, arrival hour, named visitee, and meeting location while emphasizing responsible interpretation and data limitations.
+
+Recorded visitor activity was higher in each of the three selected 2023 months than in the corresponding 2022 month.
 
 **Technologies:** Python, pandas, Matplotlib, Jupyter Notebook
 
