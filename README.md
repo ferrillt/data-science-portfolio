@@ -14,6 +14,7 @@ Each repository includes supporting documentation.
 | Project | Status |
 |---|---|
 | [Childcare Costs Across the United States](https://github.com/ferrillt/Childcare-Costs-Across-US) | Complete |
+| [Market Basket Analysis for Online Retail](https://github.com/ferrillt/Market-Basket-Analysis) * | Complete |
 | [Customer Segmentation Using Clustering](https://github.com/ferrillt/Customer-Segmentation-Clustering) * | Complete |
 | [EV Purchase Prediction](https://github.com/ferrillt/EV-Purchase-Prediction) * | Complete |
 | [Enterprise AI Governance & Evaluation](https://github.com/ferrillt/Enterprise-AI-Governance-Evaluation) | In Progress — Milestone 2 Technical Validation Complete |
@@ -37,6 +38,16 @@ Exploratory analysis of the National Database of Childcare Prices examining week
 **Technologies:** Python, pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
 
 [View the Childcare Costs Across the United States project](https://github.com/ferrillt/Childcare-Costs-Across-US)
+
+---
+
+### Market Basket Analysis for Online Retail
+
+This project used FP-growth to identify products frequently purchased together and develop recommendations for an online retailer.  Tested the recommendations on later orders by hiding one product per basket..
+
+**Technologies:** Python, pandas, NumPy, mixtend, Matplotlib, Jupyter Notebook
+
+[View the Market Basket Analysis for Online Retail project](https://github.com/ferrillt/Market-Basket-Analysis)
 
 ---
 
