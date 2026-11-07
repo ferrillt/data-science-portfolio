@@ -124,7 +124,7 @@ Historical draw counts varied by number. Those differences provide no predictive
 
 Exploratory analysis of Netflix Top 10 data examining global viewing trends, sustained chart presence, content categories, country-level coverage, and titles with broad geographic visibility.
 
-In the Most Popular dataset, Squid Game had the highest first-91-day view count, followed by Wednesday and Red Notice.
+In the Most Popular dataset, *Squid Game* had the highest first-91-day view count, followed by *Wednesday* and *Red Notice.*
 
 **Technologies:** Python, pandas, Matplotlib, openpyxl, Jupyter Notebook
 
