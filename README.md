@@ -114,7 +114,7 @@ A Tableau analysis of historical Mega Millions, Powerball, and New York Pick 10 
 
 Historical draw counts varied by number. Those differences provide no predictive advantage for a future independent draw.
 
-**Technologies:** Tableau, SQL
+**Technologies:** Tableau
 
 [View the Lottery Numbers Analysis project](https://github.com/ferrillt/Lottery-Numbers-Analysis)
 
