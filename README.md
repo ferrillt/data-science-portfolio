@@ -45,7 +45,7 @@ Infant care was consistently the most expensive age category, and family childca
 
 ### Market Basket Analysis for Online Retail
 
-This project uses FP-growth to identify products frequently purchased together in the UCI Online Retail dataset. To test the recommendations, one product was hidden in each of 5,183 later baskets. Association rules recovered the hidden product among up to five suggestions in 9.84% of baskets, compared with 2.01% for a popularity baseline. The findings help merchandising teams choose product pairings to test.
+This project uses FP-growth to identify products frequently purchased together in the UCI Online Retail dataset. To test the recommendations, one product was hidden in each of 5,183 eligible test baskets. Association rules recovered the hidden product among up to five suggestions in 9.84% of baskets, compared with 2.01% for a popularity baseline. The findings help merchandising teams choose product pairings to test.
 
 **Technologies:** Python, pandas, NumPy, mlxtend, Matplotlib, Jupyter Notebook
 
