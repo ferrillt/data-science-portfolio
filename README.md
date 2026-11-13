@@ -86,7 +86,7 @@ The histogram gradient boosting model achieved a validation ROC AUC of 0.9414. P
 
 An enterprise AI analytics project examining how data governance, business metadata, authorization policies, and independent evaluation can support reliable AI-generated analytical responses. The project uses a deterministic synthetic SQLite dataset, documented business metric definitions, and a 50-case benchmark designed to evaluate analytical accuracy, authorization compliance, and appropriate handling of ambiguous requests.
 
-Completed Milestone 2 technical validation with 28 automated tests passing. AI integration and runtime governance evaluation are planned.
+Completed Milestone 2 technical validation with 28 automated tests passing. AI integration and runtime governance evaluation are planned.  Governance closure remains pending.
 
 **Technologies:** Python, SQLite, SQL, data governance, AI evaluation, automated testing
 
